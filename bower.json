@@ -10,8 +10,8 @@
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "dist/lucenequeryparser.js",
-    "dist/luecenequeryparser.min.js"
+    "client/lucenequeryparser.js",
+    "client/luecenequeryparser.min.js"
   ],
   "ignore": [
     "node_modules/",
