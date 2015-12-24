@@ -1,0 +1,25 @@
+{
+  "name": "lucene-query-parser",
+  "description": "A Lucene query parser written in Javascript",
+  "keywords": [
+    "js",
+    "javascript",
+    "lucene",
+    "lucene syntax"
+  ],
+  "license": "MIT",
+  "moduleType": "globals",
+  "main": [
+    "dist/lucenequeryparser.js",
+    "dist/luecenequeryparser.min.js"
+  ],
+  "ignore": [
+    "node_modules/",
+    "test/",
+    "lucene-query.grammar",
+    "lucene-query-parser.js",
+    "gulpfile.js",
+    "package.json",
+    ".gitignore"
+  ]
+}
