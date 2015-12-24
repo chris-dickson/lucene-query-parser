@@ -41,7 +41,14 @@ Unit Tests
 To run the unit tests, just open SpecRunner.html in any browser. Unit tests are built with 
 `Jasmine  <http://pivotal.github.com/jasmine/>`_.
 
+Use in the Browser
+========================================
+To use the parser in the browser, include either lucenequeryparser.js or lucenequeryparser.min.js as a script
+in your html.  The usage is identical.  If you modify the grammar, you will need to rebuild the client distributables
+using gulp::
 
+  sudo npm install -g gulp
+  gulp
 
 Grammar 
 ========================================
